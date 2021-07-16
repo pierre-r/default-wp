@@ -1,0 +1,33 @@
+{
+    "name": "pierre-r/default-wp",
+    "type": "wordpress",
+    "license": "MIT",
+    "description": "WP Auto Installer",
+    "homepage": "https://www.greenpig.be",
+    "authors": [
+        {
+            "name": "Pierre Greenpig",
+            "email": "pierre@greenpig.be",
+            "homepage": "https://github.com/pierre-r"
+        }
+    ],
+    "keywords": [
+        "wordpress"
+    ],
+    "support": {
+        "issues": "https://gitlab.com/GreenpigSPRL/default-wp-project/-/issues",
+        "forum": "https://gitlab.com/GreenpigSPRL/default-wp-project/"
+    },
+    "repositories": {
+        "447495": {
+            "type": "composer",
+            "url": "https://gitlab.com/api/v4/group/447495/-/packages/composer/packages.json"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": "~1.9",
+        "greenpig/default-wp": "*"
+    }
+}
+
