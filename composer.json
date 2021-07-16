@@ -1,6 +1,6 @@
 {
     "name": "pierre-r/default-wp",
-    "type": "wordpress",
+    "type": "wordpress-theme",
     "license": "MIT",
     "description": "WP Auto Installer",
     "homepage": "https://www.greenpig.be",
@@ -11,13 +11,6 @@
             "homepage": "https://github.com/pierre-r"
         }
     ],
-    "keywords": [
-        "wordpress"
-    ],
-    "support": {
-        "issues": "https://gitlab.com/GreenpigSPRL/default-wp-project/-/issues",
-        "forum": "https://gitlab.com/GreenpigSPRL/default-wp-project/"
-    },
     "repositories": {
         "447495": {
             "type": "composer",
