@@ -1,5 +1,5 @@
 {
-    "name": "greenpig/default-wp",
+    "name": "pierre/default-wp",
     "type": "wordpress-theme",
     "license": "MIT",
     "description": "Sage Wordpress Theme avec des petits plus pour nos sites classiques",
@@ -29,7 +29,7 @@
             "url": "https://gitlab.com/api/v4/group/447495/-/packages/composer/packages.json"
         },
         "0": {
-            "type": "composer",
+            "type": "vcs",
             "url": "https://wpackagist.org"
         },
         "1": {
