@@ -1,6 +1,6 @@
 {
-    "name": "pierre/default-wp",
-    "type": "wordpress-theme",
+    "name": "greenpig/default-wp-composer",
+    "type": "package",
     "license": "MIT",
     "description": "Sage Wordpress Theme avec des petits plus pour nos sites classiques",
     "homepage": "https://www.greenpig.be",
@@ -25,43 +25,19 @@
     },
     "repositories": {
         "447495": {
-            "type": "gitlab",
+            "type": "composer",
             "url": "https://gitlab.com/api/v4/group/447495/-/packages/composer/packages.json"
         },
         "0": {
-            "type": "vcs",
+            "type": "composer",
             "url": "https://wpackagist.org"
-        },
-        "1": {
-            "type": "package",
-            "package": {
-                "name": "greenpig/default-wp",
-                "version": "*",
-                "type": "package",
-                "source": {
-                    "url": "git@gitlab.com:GreenpigSPRL/default-wp-project.git",
-                    "type": "gitlab",
-                    "reference": "master"
-                }
-            }
-        },
-        "2": {
-            "type": "package",
-            "package": {
-                "name": "greenpig/default-wp-installer",
-                "version": "*",
-                "type": "package",
-                "source": {
-                    "url": "git@gitlab.com:GreenpigSPRL/default-wp-installer.git",
-                    "type": "gitlab",
-                    "reference": "master"
-                }
-            }
         }
     },
     "require": {
         "php": ">=7.1",
         "composer/installers": "~1.9",
+        "greenpig/default-wp": "*",
+        "greenpig/default-wp-installer": "*",
         "johnpbloch/wordpress-core-installer": "*",
         "johnpbloch/wordpress-core": "*",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
@@ -80,9 +56,7 @@
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/wp-fail2ban-redux": "*",
-        "wp-media/wp-rocket": "*",
-        "greenpig/default-wp": "*",
-        "greenpig/default-wp-installer": "*"
+        "wp-media/wp-rocket": "*"
     },
     "scripts": {
         "post-update-cmd": [
