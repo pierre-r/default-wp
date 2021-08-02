@@ -59,6 +59,9 @@
         "wp-media/wp-rocket": "*"
     },
     "scripts": {
+        "post-install-cmd": [
+            "Greenpig\\DefaultWP\\Installer::postUpdateProject"
+        ],
         "post-update-cmd": [
             "Greenpig\\DefaultWP\\Installer::postUpdateProject"
         ]
