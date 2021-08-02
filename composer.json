@@ -1,16 +1,28 @@
 {
-    "name": "pierre-r/default-wp",
+    "name": "greenpig/default-wp",
     "type": "wordpress-theme",
     "license": "MIT",
-    "description": "WP Auto Installer",
+    "description": "Sage Wordpress Theme avec des petits plus pour nos sites classiques",
     "homepage": "https://www.greenpig.be",
     "authors": [
         {
             "name": "Pierre Greenpig",
             "email": "pierre@greenpig.be",
             "homepage": "https://github.com/pierre-r"
+        },
+        {
+            "name": "Francois Greenpig",
+            "email": "Francois@greenpig.be",
+            "homepage": "https://www.greenpig.be"
         }
     ],
+    "keywords": [
+        "wordpress"
+    ],
+    "support": {
+        "issues": "https://gitlab.com/GreenpigSPRL/default-wp-project/-/issues",
+        "forum": "https://gitlab.com/GreenpigSPRL/default-wp-project/"
+    },
     "repositories": {
         "447495": {
             "type": "composer",
@@ -24,7 +36,27 @@
     "require": {
         "php": ">=7.1",
         "composer/installers": "~1.9",
-        "greenpig/default-wp": "*"
+        "johnpbloch/wordpress-core-installer": "*",
+        "johnpbloch/wordpress-core": "*",
+        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/breadcrumb-navxt": "*",
+        "wpackagist-plugin/classic-editor": "*",
+        "wpackagist-plugin/cookie-law-info": "*",
+        "wpackagist-plugin/custom-post-type-maker": "*",
+        "wpackagist-plugin/favicon-by-realfavicongenerator": "*",
+        "wpackagist-plugin/google-analytics-for-wordpress": "*",
+        "wpackagist-plugin/imagify": "*",
+        "wpackagist-plugin/password-protected": "*",
+        "wpackagist-plugin/sanitize-spanish-filenames": "*",
+        "wpackagist-plugin/simple-custom-post-order": "*",
+        "wpackagist-plugin/stops-core-theme-and-plugin-updates": "*",
+        "wpackagist-plugin/sucuri-scanner": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/wp-fail2ban-redux": "*",
+        "wp-media/wp-rocket": "*",
+        "greenpig/default-wp": "*",
+        "greenpig/default-wp-installer": "*"
     },
     "scripts": {
         "post-update-cmd": [
