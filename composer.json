@@ -31,6 +31,32 @@
         "0": {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        "1": {
+            "type": "package",
+            "package": {
+                "name": "greenpig/default-wp",
+                "version": "*",
+                "type": "package",
+                "source": {
+                    "url": "git@gitlab.com:GreenpigSPRL/default-wp-project.git",
+                    "type": "gitlab",
+                    "reference": "master"
+                }
+            }
+        },
+        "2": {
+            "type": "package",
+            "package": {
+                "name": "greenpig/default-wp-installer",
+                "version": "*",
+                "type": "package",
+                "source": {
+                    "url": "git@gitlab.com:GreenpigSPRL/default-wp-installer.git",
+                    "type": "gitlab",
+                    "reference": "master"
+                }
+            }
         }
     },
     "require": {
