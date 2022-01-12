@@ -1,1 +1,33 @@
-nbproject
+# Ignore everything in the root except specific files and folders
+/*
+!.gitignore
+!.gitmodules
+!.htaccess
+!.env.example
+!index.php
+!README.md
+!wp-config.php
+!wp-config-sample.php
+!.well-known/
+!wp-content/
+!wordpress/
+
+# Ignore everything in the "wp-content" directory, except "plugins" & "themes" directory
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+wp-content/plugins/*
+!wp-content/plugins/greenpig-sage-theme-booster/
+!wp-content/plugins/tml-greenpig/
+
+# Ignore everything in the "themes" directory, except the themes you
+# specify (see the commented-out example for a hint on how to do this.)
+wp-content/themes/*
+!wp-content/themes/sage-8.5.1/
+
+# Ignore specific folders in my main theme
+# see .gitignore in the theme folder
+
