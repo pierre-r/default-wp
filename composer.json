@@ -31,7 +31,11 @@
         "0": {
             "type": "composer",
             "url": "https://wpackagist.org"
-        }
+        },
+		"1": {
+			"type": "composer",
+			"url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+		}
     },
     "require": {
         "php": ">=7.1",
@@ -40,8 +44,8 @@
         "greenpig/default-wp-installer": "*",
         "johnpbloch/wordpress-core-installer": "*",
         "johnpbloch/wordpress-core": "*",
+        "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
-        "wpackagist-plugin/advanced-custom-fields": "*",
         "wpackagist-plugin/breadcrumb-navxt": "*",
         "wpackagist-plugin/classic-editor": "*",
         "wpackagist-plugin/cookie-law-info": "*",
@@ -57,6 +61,13 @@
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/wp-fail2ban-redux": "*",
         "wp-media/wp-rocket": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "pivvenit/acf-pro-installer": true,
+            "composer/installers": true,
+            "johnpbloch/wordpress-core-installer": true
+        }
     },
     "scripts": {
         "post-update-cmd": [
