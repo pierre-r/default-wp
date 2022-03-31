@@ -10,7 +10,7 @@
 !wp-config-sample.php
 !.well-known/
 !wp-content/
-!wordpress/
+!wordpress
 
 # Ignore everything in the "wp-content" directory, except "plugins" & "themes" directory
 wp-content/*
