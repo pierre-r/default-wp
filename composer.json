@@ -34,10 +34,6 @@
         },
         "1": {
             "type": "composer",
-            "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
-        },
-        "2": {
-            "type": "composer",
             "url": "https://connect.advancedcustomfields.com"
         }
     },
