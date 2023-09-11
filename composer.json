@@ -56,6 +56,7 @@
         "wpackagist-plugin/stops-core-theme-and-plugin-updates": "*",
         "wpackagist-plugin/sucuri-scanner": "*",
         "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/wps-limit-login": "*",
         "wp-media/wp-rocket": "*"
     },
     "config": {
