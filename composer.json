@@ -28,8 +28,8 @@
             "url": "https://wpackagist.org"
         },
         "1": {
-            "type": "composer",
-            "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+            "type":"composer",
+            "url":"https://connect.advancedcustomfields.com"
         }
     },
     "require": {
@@ -37,7 +37,7 @@
         "composer/installers": "~1.9",
         "greenpig/default-wp": "*",
         "greenpig/default-wp-installer": "*",
-        "advanced-custom-fields/advanced-custom-fields-pro": "*",
+        "wpengine/advanced-custom-fields-pro": "*",
         "wp-media/wp-rocket": "*"
     },
     "config": {
